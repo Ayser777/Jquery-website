@@ -1,0 +1,421 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(19, 19, 19);
+}
+
+header nav {
+    background-color: rgb(19, 19, 19);
+    padding: 0 20px !important;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: top 1s;
+}
+
+header nav ul li {
+    padding: 0 13px;
+}
+
+header nav ul li a {
+    color: #f4f4f4 !important;
+    font-size: 20px !important;
+    padding-top: 5px;
+}
+
+header nav ul li a:hover {
+    color: #FAD6EE !important;
+}
+
+header .headcont{
+    padding: 0px 100px;
+}
+
+
+header .logo {
+    position: relative;
+}
+
+header .logo span {
+    color: #f4f4f4 !important;
+    margin-right: 10px;
+}
+
+header .spanDe {
+    font-size: 32px;
+}
+
+header .spanN {
+    font-size: 25px;
+    position: absolute;
+    left: 40px;
+    top: 7px;
+    font-style: italic;
+}
+
+header .btn1 {
+    padding: 4px 30px;
+    border: 1px solid #f4f4f4;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #f4f4f4;
+    transition: 0.4s;
+}
+
+header .btn1:hover {
+    background-color: #f4f4f4 !important;
+    color: black !important;
+}
+
+header h1 {
+    font-size: 90px !important;
+    color: #f4f4f4;
+    margin-top: 60px;
+    font-style: italic;
+}
+
+
+header span {
+    font-size: 22px;
+    color: #A1A09E;
+}
+
+header .overlayDiv {
+    position: relative !important;
+}
+
+header .overlay {
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: opacity 0.4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+header .overlayDiv:hover .overlay {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+header .textDiv {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+header .textDiv h2{
+    color: #f4f4f4;
+}
+
+header .textDiv p{
+    color: #A1A09E;
+}
+
+header .borderDiv{
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 100px;
+}
+
+
+header .row1{
+    padding-top: 100px;
+}
+
+.show{
+    background-color: rgb(19, 19, 19);
+    line-height: 40px;
+}
+
+.navbar-toggler{
+    padding: 6px;
+    background-color: white;
+}
+
+/* SECTION 1 */
+
+.sec1{
+    background-color: rgb(19, 19, 19);
+    padding: 110px;
+}
+
+
+
+.sec1 .row1{
+    padding-top: 100px;
+}
+
+.sec1 h2{
+    color: #f4f4f4;
+    font-size: 90px;
+}
+
+.cicleDiv{
+    position: relative;
+    height: 50px;
+}
+
+.sec1 .cicleSpan{
+    height: 20px;
+    width: 20px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+
+}
+
+.sec1 p{
+    font-size: 20px;
+    color: #f4f4f4;
+}
+
+.sec1 .p1{
+    font-size: 24px;
+    padding-top: 20px;
+    margin-bottom: 3px;
+}
+
+.sec1 .p2{
+    font-size: 20px;
+    color: #A1A09E;
+}
+
+.sec1 .borderDiv1{
+    border-bottom: 1px solid #FAD6EE;
+    padding-bottom: 100px;
+}
+
+
+
+.sec1 .overflow {
+    overflow: hidden !important;
+    width: 100% !important;
+}
+
+
+.sec1  .overflow  img {
+    width: 100%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.sec1 .overflow img:hover{
+    transform: scale(1.2);
+}
+
+
+/* SECTION 2 */
+
+.sec2{
+    background-color: rgb(19, 19, 19);
+    /* height: 110vh; */
+    padding: 0px 120px;
+}
+
+.sec2 .row{
+    justify-content: space-between;
+}
+
+.sec2 .row1{
+    padding-top: 100px;
+}
+
+.sec2 h2{
+    color: #FAD6EE;
+    font-size: 90px;
+}
+
+.cicleDiv{
+    position: relative;
+    height: 50px;
+}
+
+.sec2 .cicleSpan{
+    height: 20px;
+    width: 20px;
+    background-color: #FAD6EE;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+
+}
+
+.sec2 p{
+    font-size: 20px;
+    color: #FAD6EE;
+}
+
+.sec2 .div1{
+    padding-top: 20px;
+    /* width: 85%; */
+}
+
+.sec2 .p1{
+    font-size: 20px;
+    color: #FAD6EE;
+    cursor: pointer;
+}
+
+.sec2 .p1:hover{
+    color: #A1A09E;
+}
+
+.sec2 img{
+    cursor: pointer;
+    width: 100%;
+}
+
+/* SECTION 3 */
+
+.sec3{
+    background: rgb(19, 19, 19);
+    /* height: 30vh; */
+    padding: 80px;
+}
+
+.sec3 h2 {
+    color: rgb(197, 197, 197);
+
+    text-transform:capitalize ;
+}
+.acordion{
+    /* max-width: 400px; */
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.acordion-header{
+    border-bottom: 1px solid rgb(54, 54, 54);
+
+    color: rgb(197, 197, 197);
+    font-weight: 700;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.acordion-content{
+    display: none;
+    border-bottom: 1px solid rgb(54, 54, 54);
+    padding: 1.5rem;
+    color: rgb(197, 197, 197);
+}
+
+.acordion-header::before{
+    content: "";
+    vertical-align: middle;
+    display: inline-block;
+    width: .75rem;
+    height: .75rem;
+    border-radius: 50%;
+    border: 1px solid rgb(197, 197, 197);
+    margin-right: .75rem;
+}
+
+.active.acordion-header::before{
+   background-color: rgb(197, 197, 197);
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: #f4f4f4;
+    /* height: 90vh; */
+    padding: 100px;
+}
+
+
+
+footer span{
+    font-size: 90px;
+    font-family: serif;
+}
+
+footer .spanN{
+    font-size: 80px;
+    font-family: serif;
+}
+
+footer .cicleDiv{
+    position: relative;
+    height: 50px;
+}
+
+
+footer .cicleSpan{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+}
+
+
+footer p{
+    font-size: 20px;
+    color: black;
+}
+
+
+footer .textSpan{
+    font-size: 24px;
+}
+
+footer .rowpad {
+    padding-top: 180px;
+}
+
+
+
+.section{
+    /* width: 100%; */
+    /* height: 500px; */
+    /* margin: 250px 0; */
+    opacity: 0;
+    /* text-align: center; */
+    /* color: white; */
+    transition: all 1s;
+}
+
+
+
+.activeSec,
+.section:first-child{
+    opacity: 1;
+}
+
+#btn2{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    border: 0;
+    cursor: pointer;
+}

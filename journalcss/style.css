@@ -1,0 +1,282 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(19, 19, 19);
+    height: 290vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    background-color: rgb(19, 19, 19);
+    padding: 0 20px !important;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: top 1s;
+}
+
+header nav ul li {
+    padding: 0 13px;
+}
+
+header nav ul li a {
+    color: #f4f4f4 !important;
+    font-size: 20px !important;
+    padding-top: 5px;
+}
+
+header nav ul li a:hover {
+    color: #FAD6EE !important;
+}
+
+header .headcont{
+    padding: 0px 100px;
+}
+
+
+header .logo {
+    position: relative;
+}
+
+header .logo span {
+    color: #f4f4f4 !important;
+    margin-right: 10px;
+}
+
+header .spanDe {
+    font-size: 32px;
+}
+
+header .spanN {
+    font-size: 25px;
+    position: absolute;
+    left: 40px;
+    top: 7px;
+    font-style: italic;
+}
+
+header .btn1 {
+    padding: 4px 30px;
+    border: 1px solid #f4f4f4;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #f4f4f4;
+    transition: 0.4s;
+}
+
+header .btn1:hover {
+    background-color: #f4f4f4 !important;
+    color: black !important;
+}
+
+header h1 {
+    font-size: 90px !important;
+    color: #FAD6EE;
+    margin-top: 60px;
+    font-style: italic;
+}
+
+
+header .cicleDiv{
+    position: relative;
+}
+
+
+
+header .cicleSpan{
+    height: 20px;
+    width: 20px;
+    background-color: #FAD6EE;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+header .journalcont{
+    padding: 0 150px;
+}
+
+header .p1{
+    font-size: 20px;
+    color: #FAD6EE;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+header .p1:hover{
+    color: #A1A09E;
+}
+
+header .row1{
+    padding-top: 95px;
+}
+
+header img{
+    width: 100%;
+}
+
+
+header .overlayDiv {
+    position: relative !important;
+}
+
+
+header .overlay {
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: opacity 0.4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+header .overlayDiv:hover .overlay {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+
+header .overlay  span{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 60px;
+    color: white;
+    transform: translate(-50%, -50%);
+   
+}
+
+.show{
+    background-color: rgb(19, 19, 19);
+    line-height: 40px;
+}
+
+.navbar-toggler{
+    padding: 6px;
+    background-color: white;
+}
+
+.overlay1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 ,1);
+    opacity: 0;
+    transition: .5s ease;
+    z-index: -1;
+}
+
+.overlay1.active{
+    opacity: 1;
+    z-index: 2;
+    /* overflow: hidde  n !important; */
+}
+
+.content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 100%;
+    z-index: 3;
+    text-align: center;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.content img{
+    width: 100%;
+}
+
+.content.active{
+    visibility: visible;
+    opacity: 1;
+    overflow-y: hidden !important;
+    
+}
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: #f4f4f4;
+    /* height: 90vh; */
+    padding: 100px;
+}
+
+
+
+footer span{
+    font-size: 90px;
+    font-family: serif;
+}
+
+footer .spanN{
+    font-size: 80px;
+    font-family: serif;
+}
+
+footer .cicleDiv{
+    position: relative;
+    height: 50px;
+}
+
+
+footer .cicleSpan{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+}
+
+
+footer p{
+    font-size: 20px;
+    color: black;
+}
+
+
+footer .textSpan{
+    font-size: 24px;
+}
+
+footer .rowpad {
+    padding-top: 180px;
+}
+
+#btn2{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    border: 0;
+    cursor: pointer;
+}
+

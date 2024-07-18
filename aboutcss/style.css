@@ -1,0 +1,264 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(19, 19, 19);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    background-color: rgb(19, 19, 19);
+    padding: 0 20px !important;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: top 1s;
+}
+
+header nav ul li {
+    padding: 0 13px;
+}
+
+header nav ul li a {
+    color: #f4f4f4 !important;
+    font-size: 20px !important;
+    padding-top: 5px;
+}
+
+header nav ul li a:hover {
+    color: #FAD6EE !important;
+}
+
+header .headcont{
+    padding: 0px 100px;
+}
+
+
+header .logo {
+    position: relative;
+}
+
+header .logo span {
+    color: #f4f4f4 !important;
+    margin-right: 10px;
+}
+
+header .spanDe {
+    font-size: 32px;
+}
+
+header .spanN {
+    font-size: 25px;
+    position: absolute;
+    left: 40px;
+    top: 7px;
+    font-style: italic;
+}
+
+header .btn1 {
+    padding: 4px 30px;
+    border: 1px solid #f4f4f4;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #f4f4f4;
+    transition: 0.4s;
+}
+
+header .btn1:hover {
+    background-color: #f4f4f4 !important;
+    color: black !important;
+}
+
+header h1 {
+    font-size: 90px !important;
+    color: white;
+    margin-top: 60px;
+    font-style: italic;
+}
+
+
+header .cicleDiv{
+    position: relative;
+}
+
+
+
+header .cicleSpan{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+header .aboutcont{
+    padding: 0px 150px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+
+
+
+header h3{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+header .p0{
+    font-size: 23px;
+    margin-top: 40px;
+}
+
+header .p1{
+    font-size: 17px;
+    color: #a1a1a1  ;
+}
+
+
+.show{
+    background-color: rgb(19, 19, 19);
+    line-height: 40px;
+}
+
+.navbar-toggler{
+    padding: 6px;
+    background-color: white;
+}
+
+/* SECTION */
+
+.sec1{
+    background-color: rgb(19, 19, 19);
+    height: 460vh;
+}
+
+.sec1 h2{
+    text-align: center;
+    font-size: 45px;
+    color: #f4f4f4;
+    font-style: italic;
+}
+
+.sec1 .aboutcont{
+    padding: 0px 150px;
+}
+
+.sec1 .row1{
+    padding-top: 100px;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 40px;
+}
+
+.sec1 img{
+    width: 100%;
+}
+
+.sec1 h3{
+    color: #f4f4f4;
+    font-size: 35px;
+}
+
+.sec1 .p2{
+    color: #a1a1a1;
+    font-size: 25px;
+}
+
+.sec1 .p3{
+    font-size: 20px;
+    color: #a1a1a1;
+}
+
+.sec1 .p00{
+    font-size: 30px;
+    color: #f4f4f4;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.sec1 .p11{
+    color: #a1a1a1;
+    font-size: 20px;
+    margin: 0;
+}
+
+.sec1 .row3{
+    padding-top: 100px;
+}
+
+.sec1 .row2{
+    padding-top: 100px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #f4f4f4;
+    /* height: 90vh; */
+    padding: 100px;
+}
+
+
+
+footer span{
+    font-size: 90px;
+    font-family: serif;
+}
+
+footer .spanN{
+    font-size: 80px;
+    font-family: serif;
+}
+
+footer .cicleDiv{
+    position: relative;
+    height: 50px;
+}
+
+
+footer .cicleSpan{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+}
+
+
+footer p{
+    font-size: 20px;
+    color: black;
+}
+
+
+footer .textSpan{
+    font-size: 24px;
+}
+
+footer .rowpad {
+    padding-top: 180px;
+}
+
+#btn2{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    border: 0;
+    cursor: pointer;
+}
